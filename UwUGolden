@@ -11,6 +11,8 @@ discord.gg/jeAtCZ3KrT
 
 ]]
 
+local a=game:GetService("StarterGui")local b=Instance.new("BindableFunction")function b.OnInvoke(c)setclipboard("discord.gg/jeAtCZ3KrT")wait(0.5)a:SetCore("SendNotification",{Title="Success",Text="Discord Server Invite Copied To ClipBoard",Duration=2})end;a:SetCore("SendNotification",{Title="Discord",Text="Join Discord Server?",Duration=4,Callback=b,Button1="Ok"})
+
 local N,Q,l=nil,nil,nil([[
 
 	discord.gg/boronide
